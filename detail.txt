@@ -12,12 +12,7 @@ e) The algorithm and key should be same as above while converting the secured fi
 file otherwise exception will be generated.
 
 to compile
-javac -cp classes/ -d classes/ src/com/howtodoinjava/demo/jsonsimple/ReadJSONExample.java
-javac -cp classes/;libs/json-simple-2.1.2.jar -d classes/ src/com/howtodoinjava/demo/jsonsimple/ReadJSONExample.java
-
-com.howtodoinjava.demo.jsonsimple
-ReadJSONExample
-
+javac -cp classes/ -d classes/ src/com/ncu/main/Main.java
 
 to run the project
 java -cp classes/ com.ncu.main.Main 
