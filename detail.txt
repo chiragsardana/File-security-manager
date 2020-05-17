@@ -12,6 +12,14 @@ e) The algorithm and key should be same as above while converting the secured fi
 file otherwise exception will be generated.
 
 to compile
+javac -d classes/ src/com/ncu/exceptions/*.java
+javac -cp classes/ -d classes/ src/com/ncu/exceptions/EmptyFileNameException.java
+javac -cp classes/ -d classes/ src/com/ncu/validators/NameValidator.java
+javac -cp classes/ -d classes/ src/com/ncu/validators/KeyValidator.java
+javac -cp classes/ -d classes/ src/com/ncu/validators/PasswordValidator.java
+javac -cp classes/ -d classes/ src/com/ncu/processors/EncryptionDecryptionProcossors.java
+javac -cp classes/ -d classes/ src/com/ncu/processors/ProcessTxtDecryption.java
+javac -cp classes/ -d classes/ src/com/ncu/processors/ProcessTxtEncryption.java
 javac -cp classes/ -d classes/ src/com/ncu/main/Main.java
 
 to run the project

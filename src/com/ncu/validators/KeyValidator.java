@@ -14,7 +14,7 @@ public class KeyValidator
 		try
 		{
 
-			input = new FileInputStream("C:\\Users\\chira\\Desktop\\File Security System\\configs\\constants\\exceptions.properties");//here we are specifing the path of .properties file
+			input = new FileInputStream("..\\File Security System\\configs\\constants\\exceptions.properties");//here we are specifing the path of .properties file
 			prop.load(input);//to load properties file
 			if(myKey==key)
 			{

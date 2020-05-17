@@ -12,7 +12,7 @@ public class NameValidator
 		FileInputStream input=null;//object of FileInputStream to open the file
 		try
 		{
-			input = new FileInputStream("C:\\Users\\chira\\Desktop\\File Security System\\configs\\constants\\exceptions.properties");//here we are specifing the path of .properties file
+			input = new FileInputStream("..\\File Security System\\configs\\constants\\exceptions.properties");//here we are specifing the path of .properties file
 			prop.load(input);//to load properties file
 			emptyFileName(filename);//checking contains file name or not
 			missingDot(filename);//checking missing dot
@@ -132,7 +132,7 @@ public class NameValidator
 
 		try
 		{
-			input = new FileInputStream("C:\\Users\\chira\\Desktop\\File Security System\\configs\\constants\\exceptions.properties");//i want to check this line
+			input = new FileInputStream("..\\File Security System\\configs\\constants\\exceptions.properties");//i want to check this line
 			prop.load(input);
 			File f = new File(fileName);
 			if(f.exists()==true)
